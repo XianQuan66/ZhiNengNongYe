@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/include_lin1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/include_dkfs"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@mipmap/dakaifengshan"
+            android:layout_width="140dp"
+            android:layout_height="140dp" />
+        <ImageView
+            android:id="@+id/include_dkgz"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_below="@+id/include_dkgz"
+            android:background="@mipmap/dakaiguangzhao"
+            android:layout_width="140dp"
+            android:layout_height="140dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/include_lin2"
+        android:layout_below="@id/include_lin1"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/include_dksb"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@mipmap/dakaishui"
+            android:layout_width="140dp"
+            android:layout_height="140dp" />
+        <ImageView
+            android:id="@+id/include_dkbj"
+            android:layout_below="@+id/include_dkgz"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@mipmap/dakaibaojing"
+            android:layout_width="140dp"
+            android:layout_height="140dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/transparent_red"
+    android:clipChildren="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/f3_tv_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#0000"
+            android:gravity="center"
+            android:text="操作指引"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/f3_btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/f3_tv_logo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_f3"
+            android:text="1、第一条操作指引"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/f3_iv1"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/f3_btn_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/xiangxia" />
+
+        <RelativeLayout
+            android:id="@+id/f3_r_tip1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/f3_iv1"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/f3_r_iv1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@mipmap/logo_nong" />
+
+            <TextView
+                android:id="@+id/f3_r1_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/f3_r_iv1"
+                android:text="智能农业app"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/f3_r1_tv"
+                android:layout_alignLeft="@id/f3_r1_tv"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/tip1"
+                android:textColor="#000" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/f3_btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/f3_r_tip1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_f3"
+            android:text="2、第二条操作指引"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/f3_iv2"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/f3_btn_2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/xiangxia" />
+
+        <RelativeLayout
+            android:id="@+id/f3_r_tip2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/f3_iv2"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/f3_r_iv2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@mipmap/logo_nong" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/f3_r_iv2"
+                android:text="@string/tip2"
+                android:textColor="#000" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/f3_btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/f3_r_tip2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_f3"
+            android:text="3、第三条操作指引"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/f3_iv3"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/f3_btn_3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/xiangxia" />
+
+        <RelativeLayout
+            android:id="@+id/f3_r_tip3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/f3_iv3"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/f3_r_iv3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@mipmap/logo_nong" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/f3_r_iv3"
+                android:text="@string/tip3"
+                android:textColor="#000" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/f3_btn_4"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/f3_r_tip3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_f3"
+            android:text="4、第四条操作指引"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+        <RelativeLayout
+            android:id="@+id/f3_r_tip4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/f3_btn_4"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/f3_r_iv4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@mipmap/logo_nong" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/f3_r_iv4"
+                android:text="@string/tip4"
+                android:textColor="#000" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".F1GuangZhao">
+
+    <include
+        android:id="@+id/guangzhao_title"
+        layout="@layout/include_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <RelativeLayout
+        android:id="@+id/f1guangzhao_rel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guangzhao_title"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/guangzhaobeijing">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textColor="#419f13"
+            android:text="当前光照强度：" />
+        <TextView
+            android:id="@+id/f1_guangzhaotime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="195dp"
+            android:textColor="#419f13"
+            android:text="0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:textColor="#419f13"
+            android:text="正常光照强度：" />
+        <TextView
+            android:id="@+id/f1_guangzhaoset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="60dp"
+            android:textColor="#419f13"
+            android:text="0" />
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/include_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/f1guangzhao_rel" />
+</RelativeLayout>

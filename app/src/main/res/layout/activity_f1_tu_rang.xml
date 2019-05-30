@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".F1TuRang">
+
+    <include
+        android:id="@+id/turang_title"
+        layout="@layout/include_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <RelativeLayout
+        android:id="@+id/f1turang_rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/turang_title"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/turangbeijing">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="#e78642"
+            android:text="当前土壤温度：" />
+        <TextView
+            android:id="@+id/f1_turangwdtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="#e78642"
+            android:text="0" />
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:textColor="#e78642"
+            android:text="温度设定范围：" />
+        <TextView
+            android:id="@+id/f1_turangwdset"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="125dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:textColor="#e78642"
+            android:text="0" />
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="210dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textColor="#e78642"
+            android:text="当前土壤湿度：" />
+        <TextView
+            android:id="@+id/f1_turangsdtime"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="305dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textColor="#e78642"
+            android:text="0" />
+        <TextView
+            android:layout_marginLeft="210dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:textColor="#e78642"
+            android:text="湿度设定范围：" />
+        <TextView
+            android:id="@+id/f1_turangsdset"
+            android:layout_marginLeft="305dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:textColor="#e78642"
+            android:text="0" />
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/include_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/f1turang_rel" />
+
+</RelativeLayout>

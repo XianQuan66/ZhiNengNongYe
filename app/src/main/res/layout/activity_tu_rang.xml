@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my"
+    android:orientation="vertical"
+    tools:context="shoudong.TuRang">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red">
+
+        <ImageView
+            android:id="@+id/turang_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="@mipmap/fanhuianniu" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="阈值设置"
+            android:textColor="@color/main0"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/red">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:text="土壤温度值:"
+            android:textColor="@color/bantou" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="8dp"
+            android:text="-1"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="8dp"
+            android:text="土壤温度当前状态:"
+            android:textColor="@color/bantou" />
+        <ImageView
+            android:background="@mipmap/p1"
+            android:layout_alignParentRight="true"
+            android:id="@+id/turang_iv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="最小值:"
+            android:textColor="@color/bantou" />
+
+        <EditText
+            android:id="@+id/turang_edtmin1"
+            android:background="@drawable/edt"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="140dp"
+            android:layout_marginTop="10dp"
+            android:text="最大值:"
+            android:textColor="@color/bantou" />
+
+        <EditText
+            android:id="@+id/turang_edtmax1"
+            android:background="@drawable/edt"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/main1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:text="土壤湿度值:"
+            android:textColor="@color/bantou" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="8dp"
+            android:text="-1"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="8dp"
+            android:text="土壤湿度当前状态:"
+            android:textColor="@color/bantou" />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@+id/turang_iv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="最小值:"
+            android:textColor="@color/bantou" />
+
+        <EditText
+            android:id="@+id/turang_edtmin2"
+            android:background="@drawable/edt"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="140dp"
+            android:layout_marginTop="10dp"
+            android:text="最大值:"
+            android:textColor="@color/bantou" />
+
+        <EditText
+            android:id="@+id/turang_edtmax2"
+            android:background="@drawable/edt"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+
+    <Button
+        android:text="确定"
+        android:id="@+id/turang_btn"
+        android:layout_marginTop="20dp"
+        android:background="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

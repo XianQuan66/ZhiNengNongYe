@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my"
+    android:orientation="vertical"
+    tools:context="shoudong.GuangZhao">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red">
+        <ImageView
+            android:id="@+id/guangzhao_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="@mipmap/fanhuianniu" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="阈值设置"
+            android:textColor="@color/main0"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:background="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="光照强度值:"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/bantou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="-1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="140dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="光照强度当前状态:"
+            android:layout_marginTop="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="70dp"
+            android:textColor="@color/bantou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:background="@mipmap/p1"
+            android:layout_alignParentRight="true"
+            android:id="@+id/guangzhao_iv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="最小值:"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/bantou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/guangzhao_edtmin"
+            android:background="@drawable/edt"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:text="最大值:"
+            android:layout_marginRight="140dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/bantou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/guangzhao_edtmax"
+            android:background="@drawable/edt"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="20dp" />
+    </RelativeLayout>
+
+    <Button
+        android:text="确定"
+        android:id="@+id/guangzhao_btn"
+        android:layout_marginTop="20dp"
+        android:background="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

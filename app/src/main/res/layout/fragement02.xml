@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_red"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:background="@color/main1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_sd"
+        android:background="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/iv_sd"
+            android:background="@mipmap/zidongkongzhi"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/bantou"
+            android:id="@+id/tv_sd"
+            android:layout_toRightOf="@+id/iv_sd"
+            android:text="@string/item9"
+            android:layout_alignTop="@+id/iv_sd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:layout_alignTop="@+id/iv_sd"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/gengduo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="@color/main1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_clean"
+        android:background="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/iv_clean"
+            android:background="@mipmap/qinchuhuancun"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/bantou"
+            android:id="@+id/tv_clean"
+            android:layout_toRightOf="@+id/iv_clean"
+            android:text="清除缓存"
+            android:layout_alignTop="@+id/iv_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:layout_alignTop="@+id/iv_clean"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/gengduo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="@color/main1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_update"
+        android:background="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/iv_update"
+            android:background="@mipmap/banbengengx"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/bantou"
+            android:id="@+id/tv_update"
+            android:layout_toRightOf="@+id/iv_update"
+            android:text="版本更新"
+            android:layout_alignTop="@+id/iv_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/version"
+            android:layout_marginRight="20dp"
+            android:layout_alignTop="@+id/iv_update"
+            android:layout_alignParentRight="true"
+            android:text="当前版本:1.0"
+            android:textColor="@color/main1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="@color/main1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rel_guanyu"
+            android:background="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:id="@+id/iv_guanyu"
+                android:background="@mipmap/guanyuwomen"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/bantou"
+                android:id="@+id/tv_guanyu"
+                android:layout_toRightOf="@+id/iv_guanyu"
+                android:text="@string/dtitile"
+                android:layout_alignTop="@+id/iv_guanyu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:layout_alignTop="@+id/iv_guanyu"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/gengduo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <TextView
+            android:gravity="center"
+            android:background="#ffffff"
+            android:drawableLeft="@mipmap/logo_nong"
+            android:layout_below="@id/rel_guanyu"
+            android:text="@string/tip1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp" />
+
+        <RelativeLayout
+            android:id="@+id/f2_rl"
+            android:background="@color/my"
+            android:layout_below="@+id/rel_guanyu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rel_exit"
+                android:layout_marginTop="20dp"
+                android:background="@color/red"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/iv_exit"
+                    android:background="@mipmap/my_exit"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+                <TextView
+                    android:textColor="@color/bantou"
+                    android:id="@+id/tv_exit"
+                    android:layout_toRightOf="@+id/iv_exit"
+                    android:text="@string/dmove"
+                    android:layout_alignTop="@+id/iv_exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
